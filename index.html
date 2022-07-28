@@ -5,8 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fix Skill - Learn Anything</title>
+    <!-------------------------------
+        Bootstrap CSS CDN
+    --------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-    
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-between align-items-start">
+                <div class="flex-md-grow-1 flex-lg-grow-0">
+                    <a class="navbar-brand fw-semibold" href="#">Fix Skill</a>
+                </div>
+                <div class="order-md-1 order-lg-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------
+                    Signup Modal Start
+                --------------------------->
+                <div class="order-md-0 order-lg-1 d-sm-none d-md-block px-2">
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign up</button>
+                
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign up and start learning</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="name" class="col-form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="Email" class="col-form-label">Email</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="password" class="col-form-label">Password</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Sign up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------------
+                    Signup Modal Start
+                --------------------------->
+            </div>
+        </nav>
+    </header>
+
+
+    <!-------------------------------
+        Bootstrap JS CDN
+    --------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
