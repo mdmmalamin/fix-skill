@@ -82,7 +82,7 @@
         <!--------------------------
             Banner Start
         ---------------------------->
-        <div id="carouselExampleCaptions" class="container carousel slide my-4" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="container carousel slide my-4 px-0" data-bs-ride="false">
 
             <div class="carousel-inner">
                 <div class="carousel-item active bg-black rounded">
@@ -129,6 +129,64 @@
         ---------------------------->
     </header>
     <main>
+
+        <!--------------------------
+            Ready to join? Start
+        ---------------------------->
+        <section class="container">
+            <div class="text-white py-5 my-5 bg-info d-flex flex-wrap justify-content-center">
+                <div class="text-sm-center text-md-center text-lg-start p-5">
+                    <h1>Ready to join?</h1>
+                    <p class="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="align-self-center">
+                <!-------------------------
+                    Signup Modal Start
+                --------------------------->
+                    <div class="order-md-0 order-lg-1">
+                        <button type="button" class="btn btn-outline-info bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                    
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Sign up and start learning</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="name" class="col-form-label">Full Name</label>
+                                                <input type="text" class="form-control" id="name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="Email" class="col-form-label">Email</label>
+                                                <input type="email" class="form-control" id="email">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="password" class="col-form-label">Password</label>
+                                                <input type="password" class="form-control" id="password">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Sign up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-------------------------
+                    Signup Modal Start
+                --------------------------->
+                </div>
+            </div>
+            
+        </section>
+        <!--------------------------
+            Ready to join? End
+        ---------------------------->
         <!--------------------------
             FAQ Start
         ---------------------------->
@@ -216,7 +274,6 @@
                     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">View All</button>
                 </div>
                 <div class="collapse" id="collapseExample">
-                    <div class="">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What other services are you compatible with?</button>
@@ -227,9 +284,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
                 </div>
+            </div>
                 
         </section>
         <!--------------------------
